@@ -1,5 +1,5 @@
 #!/bin/sh
-FOLDER_NAME='wake_up'
+FOLDER_NAME='wakesnap'
 
 YEAR=$(date '+%Y')
 MONTH=$(date '+%m_%b')
