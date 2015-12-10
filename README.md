@@ -1,6 +1,6 @@
 # wakesnap
 
-I created a simple applescript that can be ran using [Scenario](http://www.lagentesoft.com/scenario/) or Apple's [Automator](http://macosxautomation.com/automator/) automatically and it then runs a shell script that uses [imagesnap](http://iharder.sourceforge.net/current/macosx/imagesnap/) to take a picture.
+I created a simple applescript that can be ran using [Scenario](http://www.lagentesoft.com/scenario/) or Apple's [Automator](http://macosxautomation.com/automator/). The script then runs a shellscript that uses [imagesnap](http://iharder.sourceforge.net/current/macosx/imagesnap/) to take a picture.
 
 If you'd like to run it on your mac you can follow a these steps!
 
@@ -15,4 +15,4 @@ If you don't both files to be on the same directory, just change the path of the
 
 Sometimes you may have to give permissions to the applescript to run the shellscript. To do this you can run `chmod 700 /path/to/your/shellscript/imagesnap.sh`.
 
-The location is set inside `imagesnap.sh`. Change everything that makes you happy!
+The picture's location is set inside `imagesnap.sh`. Change everything that makes you happy!
