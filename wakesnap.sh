@@ -10,7 +10,7 @@ FILENAME="$TIME"
 TARGET_DIRECTORY="/Users/$USER/Pictures/$FOLDER_NAME/$YEAR/$MONTH/$DAY"
 
 mkdir -p $TARGET_DIRECTORY
-sleep 2
+sleep 1
 
-/usr/local/bin/imagesnap "$TARGET_DIRECTORY/$FILENAME.jpg" -w 1
+/usr/local/bin/imagesnap "$TARGET_DIRECTORY/$FILENAME.jpg" -w 2
 # ^ imagesnap must be called directly from it's path
